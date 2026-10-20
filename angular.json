@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "help-desk": {
+    "vet-care": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -57,10 +57,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "help-desk:build:production"
+              "buildTarget": "vet-care:build:production"
             },
             "development": {
-              "buildTarget": "help-desk:build:development"
+              "buildTarget": "vet-care:build:development"
             }
           },
           "defaultConfiguration": "development"
